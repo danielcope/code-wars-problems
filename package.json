@@ -6,10 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcope/code-wars-problems.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcope/code-wars-problems/issues"
+  },
+  "homepage": "https://github.com/danielcope/code-wars-problems#readme",
   "dependencies": {
-    "dotenv": "^14.3.2",
-    "nodemon": "^2.0.15"
+    "dotenv": "^16.0.0"
   }
 }
