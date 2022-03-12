@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 40px 100px;
+  min-height: 100vh;
+}
+
 button {
   width: 60px;
   height: 60px;
@@ -16,6 +21,8 @@ button {
 }
 
 button:hover {
+  height: 65px;
+  width: 65px;
   background: #b46060;
   box-shadow: 2px 2px 12px 5px grey;
   transition: all 250ms linear;
@@ -23,15 +30,25 @@ button:hover {
 
 button:active {
   background: #a35050;
-  box-shadow: 1px 1px 7.5px 1px grey;
+  box-shadow: 2px 2px 15px 5px rgb(66, 35, 35) inset;
   transition: all 100ms linear;
 }
 
 #button-container {
-  width: 100vw;
-  height: 100px;
+  width: 100%;
+  min-height: 100px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
+
+.each-button {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
