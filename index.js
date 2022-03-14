@@ -16,3 +16,11 @@ for (let i = 1; i <= 20; i++) {
 }
 
 // #endregion clickable buttons that alert the number
+
+const alertClick = (i) => alert(`You clicked ${i}`);
+
+const rawrArr = document.getElementsByClassName("rawr");
+
+for (let i = 0; i < rawrArr.length; i++) {
+  rawrArr[i].addEventListener("click", () => alertClick(i + 1));
+}
