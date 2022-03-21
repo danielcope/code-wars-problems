@@ -8,3 +8,8 @@
 -- custstate	string	50	Tatooine
 -- custard	string	50	R2-D2
 -- Your solution should contain only SQL.
+
+--=================================
+
+SELECT custid, custname, custstate
+FROM customers;
