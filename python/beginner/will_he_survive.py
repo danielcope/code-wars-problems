@@ -7,3 +7,4 @@ def hero(bullets, dragons):
 
 
 print(hero(4, 5))
+
