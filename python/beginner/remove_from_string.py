@@ -8,22 +8,25 @@
 # remove("!Hi!") == = "!Hi"
 # remove("Hi! Hi!") == = "Hi! Hi"
 # remove("Hi") == = "Hi"
-# Note
-# Please don't post issue about difficulty or duplicate.
 
 
 # -------------------------
 
-def remove(str):
-    result = []
+# def remove(str):
+#     result = [x for x in str]
 
-    for ele in str:
-        result.append(ele)
+#     if len(result) > 0:
+#         if result[len(result) - 1] == "!":
+#             result.pop()
 
-    if str[len(str) - 1] == "!":
-        result.pop()
+#     return "".join(result)
 
-    return "".join(result)
+# ------------------------
+
+def remove(s):
+    return s[:-1] if s.endswith("!") else s
 
 
 print(remove("Hi!"))
+
+print(len("rawr"))
