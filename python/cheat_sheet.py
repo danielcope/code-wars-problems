@@ -1,6 +1,10 @@
 # -----------------------------------
 # defining a variable
 # different variables ("string", int, float, array, dictionary)
+from __future__ import division
+from tokenize import Exponent
+
+
 rawr = "rawr"
 array = ['this', 'is', 'an', 'array']
 number = 5
@@ -8,6 +12,15 @@ number = 5
 dictionary = {
     "property": "value",
 }
+
+#------------------------------------
+# operators
+plus = 1 + 1
+minus = 1 - 1
+multiply = 1 * 1
+division = 1 / 1
+exponent = 1 ** 1
+floordivision = 1 // 1
 
 
 # -----------------------------------
